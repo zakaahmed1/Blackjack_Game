@@ -37,16 +37,16 @@
 <h3 align="center">Blackjack Game</h3>
 
   <p align="center">
-    project_description
+    A Python script that simulates a game of Blackjack (21). Includes abilities to bet fictional money, along with all usual blackjack options such as splitting and doubling down.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/zakaahmed1/Blackjack_Game"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/zakaahmed1/Blackjack_Game">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/zakaahmed1/Blackjack_Game/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href=https://github.com/zakaahmed1/Blackjack_Game/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
