@@ -94,9 +94,7 @@ Before the cards are dealt, each player places a bet. Winnings are typically pai
 
 Since the dealer plays last, they always have a slight advantage statistically over the players. To give the player the best probability to be successful, there is a *Blackjack basic strategy* which identifies the best possible actions for the player based on every combination of their hand and the dealer's hand.
 
-Here's a Markdown table for the **Blackjack Basic Strategy**. The table assumes the game is played with standard rules: 4–8 decks, dealer stands on soft 17, and doubling down is allowed.
-
-# Blackjack Basic Strategy Table
+### Blackjack Basic Strategy Table
 
 | **Player Hand**         | **Dealer's Upcard**         | **Action**                    |
 |--------------------------|-----------------------------|--------------------------------|
