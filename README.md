@@ -162,7 +162,13 @@ For this blackjack game, we need to install additional packages before running t
 
 Run the Python script to begin simulating a hand of Blackjack.
 
+<img src="Blackjack_Usage1.png" alt="Blackjack execution of script" width="250" height="200">
 
+Here you will see your current balance ($100 by default) and an option to bet a fictional amount of money. Enter an amount (minimum $5) and press 'Enter'.
+
+<img src="Blackjack_Usage2.png" alt="Blackjack simulate cards" width="250" height="200">
+
+Now you will see your two cards, and the dealer's upcard. You will have an option to 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
