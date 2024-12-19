@@ -33,6 +33,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#about-this-project">About this project</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -52,6 +53,83 @@
 * [![Python][Python.com]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ABOUT THIS PROJECT -->
+## About this project
+
+**Blackjack**, also known as **21**, is one of the most popular card games. It is played between one or more players and a dealer, where the players do not compete against each other but against the dealer.
+
+#### Objective:
+The goal of Blackjack is to beat the dealer by having a hand value as close to **21** as possible without going over.
+
+#### Card Values:
+- Number cards (2-10): Count as their face value.
+- Face cards (Jack, Queen, King): Count as 10.
+- Aces: Count as either 1 or 11, depending on which value benefits the player’s hand.
+
+#### How to Play:
+1. **Initial Deal**: 
+   - Each player is dealt two cards face up.
+   - The dealer receives one card face up and one card face down.
+
+2. **Gameplay Options**:
+   - **Hit**: Take another card from the deck.
+   - **Stand**: Keep your current hand and end your turn.
+   - **Double Down**: Double your initial bet, take one additional card, and then stand.
+   - **Split**: If your first two cards are of equal value (e.g., two 8s or a 10 and a Jack), you can split them into two separate hands, each with its own bet.
+
+3. **Dealer's Turn**:
+   - The dealer reveals the face-down card and must draw cards until their hand value is at least **17**.
+   - If the dealer exceeds 21, they bust, and all remaining players win.
+
+4. **Winning Conditions**:
+   - **Blackjack**: A hand consisting of an Ace and a 10-value card on the initial deal.
+   - **Beat the Dealer**: Have a hand value closer to 21 than the dealer's without exceeding 21.
+   - **Push**: If both the player and the dealer have the same hand value, it's a tie, and the player’s bet is returned.
+
+#### Betting:
+Before the cards are dealt, each player places a bet. Winnings are typically paid at 1:1, except for a Blackjack, which usually pays 3:2.
+
+Since the dealer plays last, they always have a slight advantage statistically over the players. To give the player the best probability to be successful, there is a *Blackjack basic strategy* which identifies the best possible actions for the player based on every combination of their hand and the dealer's hand.
+
+Here's a Markdown table for the **Blackjack Basic Strategy**. The table assumes the game is played with standard rules: 4–8 decks, dealer stands on soft 17, and doubling down is allowed.
+
+# Blackjack Basic Strategy Table
+
+| **Player Hand**         | **Dealer's Upcard**         | **Action**                    |
+|--------------------------|-----------------------------|--------------------------------|
+| **Hard Totals**          |                             |                                |
+| 5–8                      | Any                        | Hit                            |
+| 9                        | 3–6                        | Double Down (otherwise Hit)    |
+| 10                       | 2–9                        | Double Down (otherwise Hit)    |
+| 11                       | 2–10                       | Double Down (otherwise Hit)    |
+| 12                       | 4–6                        | Stand (otherwise Hit)          |
+| 13–16                    | 2–6                        | Stand (otherwise Hit)          |
+| 17–21                    | Any                        | Stand                          |
+| **Soft Totals**          |                             |                                |
+| A,2                     | 5–6                        | Double Down (otherwise Hit)    |
+| A,3                     | 5–6                        | Double Down (otherwise Hit)    |
+| A,4                     | 4–6                        | Double Down (otherwise Hit)    |
+| A,5                     | 4–6                        | Double Down (otherwise Hit)    |
+| A,6                     | 3–6                        | Double Down (otherwise Hit)    |
+| A,7                     | 2,7,8                      | Stand                          |
+| A,7                     | 3–6                        | Double Down                    |
+| A,7                     | 9–A                        | Hit                            |
+| A,8                     | 6                          | Double Down (otherwise Stand)  |
+| A,8 or higher            | Any                        | Stand                          |
+| **Pairs**                |                             |                                |
+| 2,2                     | 2–7                        | Split                          |
+| 3,3                     | 2–7                        | Split                          |
+| 4,4                     | 5–6                        | Split                          |
+| 5,5                     | Any                        | Treat as Hard 10               |
+| 6,6                     | 2–6                        | Split                          |
+| 7,7                     | 2–7                        | Split                          |
+| 8,8                     | Any                        | Split                          |
+| 9,9                     | 2–6, 8–9                   | Split                          |
+| 10,10                   | Any                        | Stand                          |
+| A,A                     | Any                        | Split                          |
 
 
 
