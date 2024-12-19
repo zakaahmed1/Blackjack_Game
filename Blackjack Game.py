@@ -1,3 +1,6 @@
+#Blackjack game
+
+
 import random
 import pygame
 from colorama import init, Fore
@@ -6,7 +9,7 @@ from colorama import init, Fore
 pygame.mixer.init()
 init(autoreset=True)
 
-# Emojis for card suits
+# Card suits and values:
 suits = {
     "hearts": f"{Fore.RED}❤️",
     "diamonds": f"{Fore.RED}♦️",
@@ -79,6 +82,7 @@ def place_bet(balance):
             bet = int(input(f"Your balance: ${balance}\nEnter your bet (minimum $5): "))
             if bet >= 5 and bet <= balance:
                 return bet
+            # raise error if player tries betting incorrect amount:
             else:
                 print(f"Invalid bet. Bet must be at least $5 and no more than your current balance.")
         except ValueError:
