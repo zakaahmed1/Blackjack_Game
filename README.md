@@ -168,7 +168,11 @@ Here you will see your current balance ($100 by default) and an option to bet a 
 
 <img src="Blackjack_Usage2.png" alt="Blackjack simulate cards" width="250" height="200">
 
-Now you will see your two cards, and the dealer's upcard. You will have an option to 
+Now you will see your two cards, and the dealer's upcard. You will have an option to either hit, stand, double down, or split (only if both of your cards are of equal value). Type in the relevant letter to complete your action and press 'Enter'.
+
+<img src="Blackjack_Usage3.png" alt="Blackjack complete hand" width="250" height="200">
+
+In the example above, we had a hand of total 14, whilst the dealer showed a 2. So we decide to stand, and our turn is over. The dealer now draws cards until they have at least 17 - and they draw a Queen when they are on 15, so they go bust, and we win! We bet $5 of fictional money and so we get back $5 of fictional money in profit! Our new balance is $105 and we can choose to play again if we want to, or just end the game now.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
