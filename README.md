@@ -125,7 +125,7 @@ Don't forget to give the project a star! Thanks again!
 ### Top contributors:
 
 <a href="https://github.com/zakaahmed1/Blackjack_Game/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zakaahmed1/Nlackhack_Game" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=zakaahmed1/Blackjack_Game" alt="contrib.rocks image" />
 </a>
 
 
