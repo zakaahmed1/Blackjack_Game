@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zakaahmed1/Blackjack_Game">
-    <img src="Blackjack_logo.jpg" alt="Logo" width="200" height="200">
+    <img src="Blackjack_logo.jpg" alt="Logo" width="250" height="200">
   </a>
 
 <h3 align="center">Blackjack Game</h3>
