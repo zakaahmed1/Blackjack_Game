@@ -64,7 +64,7 @@ For this project we simply need Python and some additional packages to handle so
 
 For this blackjack game, we need to install additional packages before running the code. We need to install the **pygame** package to play the sounds associated with shuffling, dealing, and winning/losing. We also need to install the **colorama** package to display colors.
 * python
-  ```sh
+  ```python
   pip install pygame colorama
   ```
 
