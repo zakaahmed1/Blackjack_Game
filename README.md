@@ -58,7 +58,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-For this project we simply need Python and some additional packages to handle sounds and colors (details listed below in <li><a href="#prerequisites">Prerequisites</a></li>). Make sure to download the entire repository as the code needs the .mp3 files to be able to run.
+For this project we simply need Python and some additional packages to handle sounds and colors (details listed below in <a href="#prerequisites">Prerequisites</a>). Make sure to download the entire repository as the code needs the .mp3 files to be able to run.
 
 ### Prerequisites
 
