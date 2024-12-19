@@ -96,38 +96,49 @@ Since the dealer plays last, they always have a slight advantage statistically o
 
 ### Blackjack Basic Strategy Table
 
-| **Player Hand**         | **Dealer's Upcard**         | **Action**                    |
-|--------------------------|-----------------------------|--------------------------------|
-| **Hard Totals**          |                             |                                |
-| 5–8                      | Any                        | Hit                            |
-| 9                        | 3–6                        | Double Down (otherwise Hit)    |
-| 10                       | 2–9                        | Double Down (otherwise Hit)    |
-| 11                       | 2–10                       | Double Down (otherwise Hit)    |
-| 12                       | 4–6                        | Stand (otherwise Hit)          |
-| 13–16                    | 2–6                        | Stand (otherwise Hit)          |
-| 17–21                    | Any                        | Stand                          |
-| **Soft Totals**          |                             |                                |
-| A,2                     | 5–6                        | Double Down (otherwise Hit)    |
-| A,3                     | 5–6                        | Double Down (otherwise Hit)    |
-| A,4                     | 4–6                        | Double Down (otherwise Hit)    |
-| A,5                     | 4–6                        | Double Down (otherwise Hit)    |
-| A,6                     | 3–6                        | Double Down (otherwise Hit)    |
-| A,7                     | 2,7,8                      | Stand                          |
-| A,7                     | 3–6                        | Double Down                    |
-| A,7                     | 9–A                        | Hit                            |
-| A,8                     | 6                          | Double Down (otherwise Stand)  |
-| A,8 or higher            | Any                        | Stand                          |
-| **Pairs**                |                             |                                |
-| 2,2                     | 2–7                        | Split                          |
-| 3,3                     | 2–7                        | Split                          |
-| 4,4                     | 5–6                        | Split                          |
-| 5,5                     | Any                        | Treat as Hard 10               |
-| 6,6                     | 2–6                        | Split                          |
-| 7,7                     | 2–7                        | Split                          |
-| 8,8                     | Any                        | Split                          |
-| 9,9                     | 2–6, 8–9                   | Split                          |
-| 10,10                   | Any                        | Stand                          |
-| A,A                     | Any                        | Split                          |
+| **Player Hand**    | **Dealer’s Upcard**           | **Action**                                 |
+|---------------------|-------------------------------|--------------------------------------------|
+| **Hard Totals**     |                               |                                            |
+| 8 or less           | Any                           | Hit                                        |
+| 9                   | 3–6                          | Double (Hit if not allowed)                |
+| 9                   | 2, 7–A                       | Hit                                        |
+| 10                  | 2–9                          | Double (Hit if not allowed)                |
+| 10                  | 10–A                         | Hit                                        |
+| 11                  | 2–10                         | Double (Hit if not allowed)                |
+| 11                  | A                            | Hit                                        |
+| 12                  | 4–6                          | Stand                                     |
+| 12                  | 2–3, 7–A                     | Hit                                       |
+| 13–16               | 2–6                          | Stand                                     |
+| 13–16               | 7–A                          | Hit                                       |
+| 17–21               | Any                          | Stand                                     |
+| **Soft Totals**     |                               |                                            |
+| A,2–A,3            | 5–6                          | Double (Hit if not allowed)                |
+| A,2–A,3            | Any other                     | Hit                                       |
+| A,4–A,5            | 4–6                          | Double (Hit if not allowed)                |
+| A,4–A,5            | Any other                     | Hit                                       |
+| A,6                 | 3–6                          | Double (Hit if not allowed)                |
+| A,6                 | Any other                     | Hit                                       |
+| A,7                 | 2, 7–8                       | Stand                                     |
+| A,7                 | 3–6                          | Double (Stand if not allowed)              |
+| A,7                 | 9–A                          | Hit                                       |
+| A,8 or higher       | Any                          | Stand                                     |
+| **Pairs**           |                               |                                            |
+| 2,2                 | 2–7                          | Split                                     |
+| 2,2                 | 8–A                          | Hit                                       |
+| 3,3                 | 2–7                          | Split                                     |
+| 3,3                 | 8–A                          | Hit                                       |
+| 4,4                 | 5–6                          | Split                                     |
+| 4,4                 | Any other                     | Hit                                       |
+| 5,5                 | Any                          | Treat as Hard 10                          |
+| 6,6                 | 2–6                          | Split                                     |
+| 6,6                 | 7–A                          | Hit                                       |
+| 7,7                 | 2–7                          | Split                                     |
+| 7,7                 | 8–A                          | Hit                                       |
+| 8,8                 | Any                          | Split                                     |
+| 9,9                 | 2–6, 8–9                     | Split                                     |
+| 9,9                 | 7, 10, A                     | Stand                                     |
+| 10,10               | Any                          | Stand                                     |
+| A,A                 | Any                          | Split                                     |
 
 
 
